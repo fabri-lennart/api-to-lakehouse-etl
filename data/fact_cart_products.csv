@@ -1,0 +1,122 @@
+cart_id,user_id,product_id,product_title,quantity,line_total,id,title,price
+1,33,168,Charger SXT RWD,3,98999.97,168,Charger SXT RWD,32999.99
+1,33,78,Apple MacBook Pro 14 Inch Space Grey,2,3999.98,78,Apple MacBook Pro 14 Inch Space Grey,1999.99
+1,33,183,Green Oval Earring,5,124.95,183,Green Oval Earring,24.99
+1,33,100,Apple Airpods,5,649.95,100,Apple Airpods,129.99
+2,142,144,Cricket Helmet,4,179.96,144,Cricket Helmet,44.99
+2,142,124,iPhone X,4,3599.96,124,iPhone X,899.99
+2,142,148,Golf Ball,4,39.96,148,Golf Ball,9.99
+2,142,122,iPhone 6,3,899.97,122,iPhone 6,299.99
+2,142,110,Selfie Lamp with iPhone,5,74.95,110,Selfie Lamp with iPhone,14.99
+3,108,98,Rolex Submariner Watch,1,13999.99,98,Rolex Submariner Watch,13999.99
+3,108,125,Oppo A57,5,1249.95,125,Oppo A57,249.99
+3,108,55,Egg Slicer,2,13.98,55,Egg Slicer,6.99
+3,108,62,Ice Cube Tray,2,11.98,62,Ice Cube Tray,5.99
+3,108,132,Samsung Galaxy S8,3,1499.97,132,Samsung Galaxy S8,499.99
+4,87,187,Golden Shoes Woman,5,249.95,187,Golden Shoes Woman,49.99
+4,87,40,Strawberry,5,19.950000000000003,40,Strawberry,3.99
+4,87,156,Green and Black Glasses,5,174.95000000000002,156,Green and Black Glasses,34.99
+4,87,62,Ice Cube Tray,2,11.98,62,Ice Cube Tray,5.99
+5,134,108,iPhone 12 Silicone Case with MagSafe Plum,2,59.98,108,iPhone 12 Silicone Case with MagSafe Plum,29.99
+5,134,138,Baseball Ball,5,44.95,138,Baseball Ball,8.99
+5,134,157,Party Glasses,2,39.98,157,Party Glasses,19.99
+5,134,8,Dior J'adore,3,269.97,8,Dior J'adore,89.99
+5,134,80,Huawei Matebook X Pro,5,6999.95,80,Huawei Matebook X Pro,1399.99
+5,134,28,Ice Cream,3,16.47,28,Ice Cream,5.49
+6,150,172,Blue Women's Handbag,5,249.95,172,Blue Women's Handbag,49.99
+6,150,112,TV Studio Camera Pedestal,3,1499.97,112,TV Studio Camera Pedestal,499.99
+6,150,97,Rolex Datejust,3,32999.97,97,Rolex Datejust,10999.99
+6,150,128,Realme C35,3,449.97,128,Realme C35,149.99
+7,86,167,300 Touring,5,144999.95,167,300 Touring,28999.99
+7,86,111,Selfie Stick Monopod,4,51.96,111,Selfie Stick Monopod,12.99
+7,86,129,Realme X,2,599.98,129,Realme X,299.99
+8,23,117,Sportbike Motorcycle,2,14999.98,117,Sportbike Motorcycle,7499.99
+8,23,18,Cat Food,4,35.96,18,Cat Food,8.99
+8,23,105,Apple MagSafe Battery Pack,5,499.95,105,Apple MagSafe Battery Pack,99.99
+8,23,6,Calvin Klein CK One,3,149.97,6,Calvin Klein CK One,49.99
+9,194,178,Corset Leather With Skirt,2,179.98,178,Corset Leather With Skirt,89.99
+9,194,191,Rolex Cellini Moonphase,4,63999.96,191,Rolex Cellini Moonphase,15999.99
+9,194,47,Table Lamp,2,99.98,47,Table Lamp,49.99
+9,194,134,Vivo S1,5,1249.95,134,Vivo S1,249.99
+10,160,190,IWC Ingenieur Automatic Steel,5,24999.95,190,IWC Ingenieur Automatic Steel,4999.99
+10,160,94,Longines Master Collection,3,4499.97,94,Longines Master Collection,1499.99
+11,172,88,Nike Air Jordan 1 Red And Black,1,149.99,88,Nike Air Jordan 1 Red And Black,149.99
+11,172,32,Milk,3,10.47,32,Milk,3.49
+11,172,74,Spoon,3,14.97,74,Spoon,4.99
+11,172,145,Cricket Wicket,3,89.97,145,Cricket Wicket,29.99
+11,172,26,Green Chili Pepper,3,2.97,26,Green Chili Pepper,0.99
+11,172,127,Oppo K1,1,299.99,127,Oppo K1,299.99
+12,202,63,Kitchen Sieve,4,31.96,63,Kitchen Sieve,7.99
+12,202,181,Marni Red & Black Suit,5,899.95,181,Marni Red & Black Suit,179.99
+13,41,85,Man Plaid Shirt,2,69.98,85,Man Plaid Shirt,34.99
+13,41,109,Monopod,3,59.97,109,Monopod,19.99
+13,41,160,Samsung Galaxy Tab S8 Plus Grey,1,599.99,160,Samsung Galaxy Tab S8 Plus Grey,599.99
+13,41,163,Girl Summer Dress,3,59.97,163,Girl Summer Dress,19.99
+13,41,31,Lemon,4,3.16,31,Lemon,0.79
+14,94,92,Sports Sneakers Off White Red,3,329.97,92,Sports Sneakers Off White Red,109.99
+14,94,54,Citrus Squeezer Yellow,5,44.95,54,Citrus Squeezer Yellow,8.99
+14,94,76,Wooden Rolling Pin,1,11.99,76,Wooden Rolling Pin,11.99
+14,94,44,Family Tree Photo Frame,5,149.95,44,Family Tree Photo Frame,29.99
+14,94,67,Mug Tree Stand,3,47.97,67,Mug Tree Stand,15.99
+14,94,16,Apple,1,1.99,16,Apple,1.99
+15,11,11,Annibale Colombo Bed,5,9499.95,11,Annibale Colombo Bed,1899.99
+15,11,133,Samsung Galaxy S10,3,2099.9700000000003,133,Samsung Galaxy S10,699.99
+15,11,111,Selfie Stick Monopod,3,38.97,111,Selfie Stick Monopod,12.99
+15,11,162,Blue Frock,3,89.97,162,Blue Frock,29.99
+15,11,30,Kiwi,5,12.45,30,Kiwi,2.49
+16,200,19,Chicken Meat,2,19.98,19,Chicken Meat,9.99
+16,200,152,Tennis Racket,3,149.97,152,Tennis Racket,49.99
+16,200,35,Potatoes,1,2.29,35,Potatoes,2.29
+17,141,1,Essence Mascara Lash Princess,2,19.98,1,Essence Mascara Lash Princess,9.99
+17,141,60,Grater Black,3,32.97,60,Grater Black,10.99
+17,141,74,Spoon,4,19.96,74,Spoon,4.99
+17,141,44,Family Tree Photo Frame,4,119.96,44,Family Tree Photo Frame,29.99
+18,189,127,Oppo K1,4,1199.96,127,Oppo K1,299.99
+18,189,24,Fish Steak,3,44.97,24,Fish Steak,14.99
+18,189,20,Cooking Oil,5,24.950000000000003,20,Cooking Oil,4.99
+18,189,154,Black Sun Glasses,3,89.97,154,Black Sun Glasses,29.99
+18,189,44,Family Tree Photo Frame,2,59.98,44,Family Tree Photo Frame,29.99
+18,189,5,Red Nail Polish,5,44.95,5,Red Nail Polish,8.99
+19,59,187,Golden Shoes Woman,3,149.97,187,Golden Shoes Woman,49.99
+19,59,153,Volleyball,5,59.95,153,Volleyball,11.99
+19,59,34,Nescafe Coffee,3,23.97,34,Nescafe Coffee,7.99
+19,59,130,Realme XT,2,699.98,130,Realme XT,349.99
+20,90,107,Beats Flex Wireless Earphones,1,49.99,107,Beats Flex Wireless Earphones,49.99
+20,90,193,Watch Gold for Women,3,2399.9700000000003,193,Watch Gold for Women,799.99
+20,90,100,Apple Airpods,3,389.97,100,Apple Airpods,129.99
+20,90,90,Puma Future Rider Trainers,5,449.95,90,Puma Future Rider Trainers,89.99
+20,90,118,Attitude Super Leaves Hand Soap,5,44.95,118,Attitude Super Leaves Hand Soap,8.99
+20,90,166,Tartan Dress,5,199.95,166,Tartan Dress,39.99
+21,42,77,Yellow Peeler,2,11.98,77,Yellow Peeler,5.99
+21,42,91,Sports Sneakers Off White & Red,2,239.98,91,Sports Sneakers Off White & Red,119.99
+22,140,73,Spice Rack,5,99.95,73,Spice Rack,19.99
+22,140,2,Eyeshadow Palette with Mirror,2,39.98,2,Eyeshadow Palette with Mirror,19.99
+22,140,69,Plate,2,7.98,69,Plate,3.99
+22,140,155,Classic Sun Glasses,3,74.97,155,Classic Sun Glasses,24.99
+23,147,82,New DELL XPS 13 9300 Laptop,5,7499.95,82,New DELL XPS 13 9300 Laptop,1499.99
+23,147,172,Blue Women's Handbag,4,199.96,172,Blue Women's Handbag,49.99
+23,147,41,Tissue Paper Box,2,4.98,41,Tissue Paper Box,2.49
+23,147,37,Red Onions,4,7.96,37,Red Onions,1.99
+23,147,138,Baseball Ball,5,44.95,138,Baseball Ball,8.99
+24,6,108,iPhone 12 Silicone Case with MagSafe Plum,5,149.95,108,iPhone 12 Silicone Case with MagSafe Plum,29.99
+24,6,134,Vivo S1,4,999.96,134,Vivo S1,249.99
+24,6,174,Prada Women Bag,1,599.99,174,Prada Women Bag,599.99
+25,118,4,Red Lipstick,1,12.99,4,Red Lipstick,12.99
+25,118,126,Oppo F19 Pro+,1,399.99,126,Oppo F19 Pro Plus,399.99
+26,66,37,Red Onions,5,9.95,37,Red Onions,1.99
+26,66,128,Realme C35,3,449.97,128,Realme C35,149.99
+27,75,33,Mulberry,1,4.99,33,Mulberry,4.99
+27,75,110,Selfie Lamp with iPhone,2,29.98,110,Selfie Lamp with iPhone,14.99
+27,75,16,Apple,3,5.97,16,Apple,1.99
+27,75,83,Blue & Black Check Shirt,5,149.95,83,Blue & Black Check Shirt,29.99
+28,147,1,Essence Mascara Lash Princess,5,49.95,1,Essence Mascara Lash Princess,9.99
+28,147,141,Basketball Rim,4,159.96,141,Basketball Rim,39.99
+29,170,80,Huawei Matebook X Pro,2,2799.98,80,Huawei Matebook X Pro,1399.99
+29,170,107,Beats Flex Wireless Earphones,4,199.96,107,Beats Flex Wireless Earphones,49.99
+29,170,25,Green Bell Pepper,2,2.58,25,Green Bell Pepper,1.29
+29,170,121,iPhone 5s,4,799.96,121,iPhone 5s,199.99
+29,170,153,Volleyball,5,59.95,153,Volleyball,11.99
+30,177,181,Marni Red & Black Suit,1,179.99,181,Marni Red & Black Suit,179.99
+30,177,171,Pacifica Touring,4,127999.96,171,Pacifica Touring,31999.99
+30,177,35,Potatoes,4,9.16,35,Potatoes,2.29
+30,177,46,Plant Pot,4,59.96,46,Plant Pot,14.99

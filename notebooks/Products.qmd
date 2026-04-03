@@ -28,7 +28,7 @@ This notebook demonstrates a simple end-to-end data pipeline:
 import requests as rq
 import json
 
-url = "https://dummyjson.com/products"
+url = "https://dummyjson.com/products?limit=200"
 
 def request_data(link: str) -> str:
     response = rq.get(link, timeout=10)
@@ -48,6 +48,7 @@ products = data_json["products"]
 ```{python}
 clean_products = [
     {
+        "id": p["id"],
         "title": p["title"],
         "price": p["price"]
     }
@@ -83,12 +84,3 @@ df.to_csv('../data/products.csv', index=False)
 * The Lakehouse acts as a centralized storage layer
 * Files are stored under `/Files`
 * Suitable for simple ETL pipelines
-
----
-
-## Next Steps
-
-* Use Parquet format
-* Convert to Delta tables
-* Automate with pipelines
-* Connect to Power BI

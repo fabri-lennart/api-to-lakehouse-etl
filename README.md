@@ -1,5 +1,8 @@
-# API to Lakehouse ETL
+## Pipeline Architecture
 
+![Fabric Pipeline](Images/pipeline.png)
+
+---
 Simple end-to-end data pipeline built with Microsoft Fabric.
 
 ## Overview

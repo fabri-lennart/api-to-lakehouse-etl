@@ -1,0 +1,68 @@
+---
+
+title: "Join and Load to Warehouse"
+author: "Fabricio Lennart"
+date: "2026-04-03"
+format: html
+jupyter: python3
+execute:
+    echo: true
+    warning: false
+    message: false
+---
+
+## Overview
+
+This notebook joins products and carts data, then loads the result:
+
+* Read products and carts from the Lakehouse
+* Join both tables on product_id
+* Save the joined table for Warehouse ingestion
+
+---
+
+## Step 1: Read Data from Lakehouse
+
+```{python}
+import pandas as pd
+
+df_products = pd.read_csv('../data/products.csv')
+df_carts = pd.read_csv('../data/carts.csv')
+
+print(f"Products: {len(df_products)} rows")
+print(f"Carts: {len(df_carts)} rows")
+```
+
+---
+
+## Step 2: Join Tables
+
+```{python}
+df_joined = df_carts.merge(
+    df_products,
+    left_on="product_id",
+    right_on="id",
+    how="left"
+)
+
+print(f"Joined: {len(df_joined)} rows")
+df_joined.head()
+```
+
+---
+
+## Step 3: Save to Lakehouse
+
+```{python}
+df_joined.to_csv('../data/fact_cart_products.csv', index=False)
+
+print("Table fact_cart_products saved to Lakehouse")
+```
+
+---
+
+## Notes
+
+* The joined table combines cart transactions with product details
+* This table is loaded to the Warehouse via Copy Data in the pipeline
+* The pipeline schedule automates the full extraction and load process
