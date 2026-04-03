@@ -1,8 +1,9 @@
 ## Pipeline Architecture
 
-![Fabric Pipeline](Images/pipeline.png)
+![Fabric Pipeline](Images/Pipeline.jpg)
 
----
+
+
 Simple end-to-end data pipeline built with Microsoft Fabric.
 
 ## Overview
