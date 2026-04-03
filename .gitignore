@@ -1,0 +1,12 @@
+# Ignore everything in notebooks except .qmd
+notebooks/*
+!notebooks/*.qmd
+
+# Ignore generated files
+*.html
+*_files/
+*.quarto_ipynb_*
+
+# Python
+__pycache__/
+*.pyc

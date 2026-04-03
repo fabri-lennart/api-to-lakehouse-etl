@@ -1,0 +1,94 @@
+---
+
+title: "API to Lakehouse ETL"
+author: "Fabricio Lennart"
+date: "2026-04-03"
+format: html
+jupyter: python3
+execute:
+    echo: true
+    warning: false
+    message: false
+---
+
+## Overview
+
+This notebook demonstrates a simple end-to-end data pipeline:
+
+* Extract data from a public API
+* Transform the JSON response
+* Load the data into a structured format
+* Store the result in a Fabric Lakehouse
+
+---
+
+## Step 1: Extract Data from API
+
+```{python}
+import requests as rq
+import json
+
+url = "https://dummyjson.com/products"
+
+def request_data(link: str) -> str:
+    response = rq.get(link, timeout=10)
+    response.raise_for_status()
+    return response.text
+
+data = request_data(url)
+
+data_json = json.loads(data)
+products = data_json["products"]
+```
+
+---
+
+## Step 2: Transform Data
+
+```{python}
+clean_products = [
+    {
+        "title": p["title"],
+        "price": p["price"]
+    }
+    for p in products
+]
+
+clean_products[:3]
+```
+
+---
+
+## Step 3: Load into DataFrame
+
+```{python}
+import pandas as pd
+
+df = pd.DataFrame(clean_products)
+df.head()
+```
+
+---
+
+## Step 4: Save to Lakehouse
+
+```{python}
+df.to_csv('../data/products.csv', index=False)
+```
+
+---
+
+## Notes
+
+* The Lakehouse acts as a centralized storage layer
+* Files are stored under `/Files`
+* Suitable for simple ETL pipelines
+
+---
+
+## Next Steps
+
+* Use Parquet format
+* Convert to Delta tables
+* Automate with pipelines
+* Connect to Power BI
